@@ -22,12 +22,24 @@ contacts_3O4O <- read.table(
   stringsAsFactors = FALSE
 )
 
-colnames(contacts_1ITB) <- c("frame", "interaction_type", "atom1", "atom2")
-colnames(contacts_3O4O) <- c("frame", "interaction_type", "atom1", "atom2")
+# column names and selections
+
+colnames(contacts_1ITB) <- c("frames", "interaction_type", "atom1", "atom2")
+colnames(contacts_3O4O) <- c("frames", "interaction_type", "atom1", "atom2")
+
+c1ITB_sel <- contacts_1ITB %>% select(interaction_type, atom1, atom2)
+c3O4O_sel <- contacts_3O4O %>% select(interaction_type, atom1, atom2)
 
 # unique contacts
 
-unique_1ITB_contacts <- anti_join(contacts_1ITB, contacts_3O4O, 
-                                  by = c("interaction_type", "atom1", "atom2"))
+unique_contacts <- dplyr::union(c1ITB_sel, c3O4O_sel) %>%
+  anti_join(
+    dplyr::intersect(c1ITB_sel, c3O4O_sel),
+    by = c("interaction_type", "atom1", "atom2")
+  )
 
-unique_1ITB_contacts
+# writing the csv
+
+write.csv(unique_contacts %>% filter(interaction_type != "vdw"), 
+          "~/Dropbox/getcontacts/receptors_il1b/unique_contacts.csv", 
+          row.names = FALSE)
