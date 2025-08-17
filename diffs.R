@@ -30,16 +30,9 @@ colnames(contacts_3O4O) <- c("frames", "interaction_type", "atom1", "atom2")
 c1ITB_sel <- contacts_1ITB %>% select(interaction_type, atom1, atom2)
 c3O4O_sel <- contacts_3O4O %>% select(interaction_type, atom1, atom2)
 
+# full join by interaction type to comp
+compare_contacts <- full_join(c1ITB_sel, c3O4O_sel, by = "interaction_type")
+
 # unique contacts
-
-unique_contacts <- dplyr::union(c1ITB_sel, c3O4O_sel) %>%
-  anti_join(
-    dplyr::intersect(c1ITB_sel, c3O4O_sel),
-    by = c("interaction_type", "atom1", "atom2")
-  )
-
-# writing the csv
-
-write.csv(unique_contacts %>% filter(interaction_type != "vdw"), 
-          "~/Dropbox/getcontacts/receptors_il1b/unique_contacts.csv", 
-          row.names = FALSE)
+unique_contacts <- compare_contacts %>%
+  filter(contacts_1ITB$atom1 != contacts_3O4O$atom1 | contacts_1ITB$atom2 != contacts_3O4O$atom2 | interaction_type != "vdw")
