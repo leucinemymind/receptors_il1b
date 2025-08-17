@@ -36,3 +36,7 @@ compare_contacts <- full_join(c1ITB_sel, c3O4O_sel, by = "interaction_type")
 # unique contacts
 unique_contacts <- compare_contacts %>%
   filter(contacts_1ITB$atom1 != contacts_3O4O$atom1 | contacts_1ITB$atom2 != contacts_3O4O$atom2 | interaction_type != "vdw")
+
+write.csv(unique_contacts, 
+          "~/Dropbox/getcontacts/receptors_il1b/unique_contacts.csv", 
+          row.names = FALSE)
