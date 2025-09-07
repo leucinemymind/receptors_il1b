@@ -1,0 +1,6 @@
+1itb <- read_tsv("~/Dropbox/getcontacts/receptors_il1b/1itb_static.tsv", skip = 2)
+> 1itb <- read_tsv("~/Dropbox/getcontacts/receptors_il1b/1itb_static.tsv", skip = 2)
+1itb <- read_tsv("~/Dropbox/getcontacts/receptors_il1b/1itb_static.tsv", skip = 2)
+library(tidyverse)
+1itb <- read_tsv("~/Dropbox/getcontacts/receptors_il1b/1itb_static.tsv", skip = 2)
+1itb <- read_tsv("~/Dropbox/getcontacts/receptors_il1b/1itb_static", skip = 2)
