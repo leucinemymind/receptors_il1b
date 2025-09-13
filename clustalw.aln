@@ -1,0 +1,42 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+Protein1        MLRLYVLVMGVSAFTLQPAAHTGAARSCRFRGRHYKREFRLEGEPVALRCPQVPYWLWAS
+Protein2        MKVLLRLICFIALLISSLEADKCKEREEKIILVSSANEIDVRPCPLNPNE----------
+                *  *  *:  :: :  .  *..   *. ::      .*: :.  *:  .           
+
+Protein1        VSPRINLTWHKNDSARTVPGEEETRMWAQDGALWLLPALQEDSGTYVCTTRNASYCDKMS
+Protein2        --HKGTITWYKDDSKTPVSTEQASRIHQHKEKLWFVPAKVEDSGHYYCVVRNSSYCLRIK
+                   : .:**:*:**  .*. *: :*:  :.  **::**  **** * *..**:*** ::.
+
+Protein1        IELRVFEN--TDAFLPFISYPQILTLSTSGVLVCPDLSEFTR-DKTDVKIQWYKDSLLLD
+Protein2        ISAKFVENEPNLCYNAQAIFKQKLPVAGDGGLVCPYMEFFKNENNELPKLQWYKDCKPLL
+                *. :..**  . .: .   : * *.:: .* **** :. *.. ::   *:*****.  * 
+
+Protein1        KDNEKFLSVRGTTHLLVHDVALEDAGYYRCVLTFAHEGQQYNITRSIELRIKKKKEETIP
+Protein2        LDNIHFSGVK--DRLIVMNVAEKHRGNYTCHASYTYLGKQYPITRVIEFITLEENKPTRP
+                 ** :* .*:   :*:* :** :. * * *  :::: *:** *** **:   :::: * *
+
+Protein1        VIISPL-KTISASLGSRLTIPCKVFLGTGTPLTTMLWWTANDTHIESAYPGG--------
+Protein2        VIVSPANETMEVDLGSQIQLICNVTG----QLSDIAYWKWNGSVIDEDDPVLGEDYYSVE
+                **:**  :*:...***:: : *:*       *: : :*. *.: *:.  *          
+
+Protein1        ---------------------RVTEGPRQEYSENNE-NYIEVPLIFDPVTREDLHMDFKC
+Protein2        NPANKRRSTLITVLNISEIESRFYKHPFTCFAKNTHGIDAAYIQLIYPVTNFQKHMIGIC
+                                     *. : *   :::*..        :: ***. : **   *
+
+Protein1        VVHNTLSFQTLRTTVKEASSTFSWG-----------------------------------
+Protein2        VTLTVIIVCSVFIYKIFKIDIVLWYRDSCYDFLPIKASDGKTYDAYILYPKTVGEGSTSD
+                *. ..: . ::        . . *                                    
+
+Protein1        -------------------------------------------------IVLAPLSLAFL
+Protein2        CDIFVFKVLPEVLEKQCGYKLFIYGRDDYVGEDIVEVINENVKKSRRLIIILVRETSGFS
+                                                                 *:*.  : .* 
+
+Protein1        VLGGIWMHRRCKHRTGKADGLTVLWPHHQDFQSYPK------------------------
+Protein2        WLGGSSEEQIAMYNALVQDGIKVVLLELEKIQDYEKMPESIKFIKQKHGAIRWSGDFTQG
+                 ***   .: . :.:   **:.*:  . :.:*.* *                        
+
+Protein1        -----------------------------------------------
+Protein2        PQSAKTRFWKNVRYHMPVQRRSPSSKHQLLSPATKEKLQREAHVPLG
+                                                               
