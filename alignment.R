@@ -19,8 +19,8 @@ seq_3O4O_split[seq_3O4O_split=="-"] <- NA
 
 counter_1ITB <- 1
 counter_3O4O <- 1
-index_list_1ITB <- rep(NA, length(seq_1ITB_split))
-index_list_3O4O <- rep(NA, length(seq_3O4O_split))
+index_list_1ITB <- rep(-1, length(seq_1ITB_split))
+index_list_3O4O <- rep(-1, length(seq_3O4O_split))
 
 for (i in 1:length(seq_1ITB_split)) {
   if (!is.na(seq_1ITB_split[i])) {
