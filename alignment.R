@@ -15,11 +15,34 @@ seq_3O4O_split <- unlist(strsplit(seq_3O4O, split = ""))
 seq_1ITB_split[seq_1ITB_split=="-"] <- NA
 seq_3O4O_split[seq_3O4O_split=="-"] <- NA
 
+# residue numbers
+
+counter_1ITB <- 1
+counter_3O4O <- 1
+index_list_1ITB <- rep(NA, length(seq_1ITB_split))
+index_list_3O4O <- rep(NA, length(seq_3O4O_split))
+
+for (i in 1:length(seq_1ITB_split)) {
+  if (!is.na(seq_1ITB_split[i])) {
+    index_list_1ITB[i] <- counter_1ITB
+    counter_1ITB <- counter_1ITB+1
+  }
+}
+
+for (i in 1:length(seq_3O4O_split)) {
+  if (!is.na(seq_3O4O_split[i])) {
+    index_list_3O4O[i] <- counter_3O4O
+    counter_3O4O <- counter_3O4O+1
+  }
+}
+
 # create dataframe
 
 contacts_df <- data.frame(
   receptor_1 = seq_1ITB_split,
   receptor_2 = seq_3O4O_split,
+  receptor1_index = index_list_1ITB,
+  receptor2_index = index_list_3O4O,
   stringsAsFactors = FALSE
 )
 
