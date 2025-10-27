@@ -44,31 +44,27 @@ df_3O4O_split$contact_id <- paste0(df_3O4O_split$resn1,
                                    df_3O4O_split$resnum2)
 
 # mapping 1itb -> 3o4o
-resn_lookup <- setNames(df_3O4O_split$resn1, df_3O4O_split$resnum1)
 b_to_c <- setNames(mapping$receptor2_index, mapping$receptor1_index)
-names(b_to_c) <- mapping$receptor1_index
 
-# safe mapping function
-safe_map <- function(resnums, df_split, b_to_c, res_col) {
-  sapply(resnums, function(x) {
-    mapped_num <- b_to_c[as.character(x)]
-    if(!is.na(mapped_num)) {
-      # pick first match if duplicates exist
-      mapped_res <- df_split[[res_col]][df_split$resnum1 == mapped_num | df_split$resnum2 == mapped_num]
-      if(length(mapped_res) >= 1) {
-        mapped_res[1]
-      } else {
-        NA
-      }
-    } else {
-      NA
-    }
-  })
-}
+# map residues safely using sapply
+map_resn1 <- sapply(df_1ITB_split$resnum1, function(x){
+  mapped_num <- b_to_c[as.character(x)]
+  print(mapped_num)
+  if(!is.na(mapped_num)){
+    df_3O4O_split$resn1[df_3O4O_split$resnum1 == mapped_num]
+  } else {
+    NA
+  }
+})
 
-# apply safe mapping
-map_resn1 <- safe_map(df_1ITB_split$resnum1, df_3O4O_split, b_to_c, "resn1")
-map_resn2 <- safe_map(df_1ITB_split$resnum2, df_3O4O_split, b_to_c, "resn2")
+map_resn2 <- sapply(df_1ITB_split$resnum2, function(x){
+  mapped_num <- b_to_c[as.character(x)]
+  if(!is.na(mapped_num)){
+    df_3O4O_split$resn2[df_3O4O_split$resnum2 == mapped_num]
+  } else {
+    NA
+  }
+})
 
 df_1ITB_split$mapped_contact <- paste0(
   map_resn1, b_to_c[as.character(df_1ITB_split$resnum1)],
@@ -80,43 +76,40 @@ df_1ITB_split$mapped_contact <- paste0(
 ids_3O4O <- df_3O4O_split$contact_id
 
 # start mapping
-output_list <- list()
+output_list <- vector("list", nrow(df_1ITB_split) + length(ids_3O4O))
+index <- 1
 
 for(i in 1:nrow(df_1ITB_split)){
   original <- df_1ITB_split$contact_id[i]       # original 1ITB contact
   mapped   <- df_1ITB_split$mapped_contact[i]  # mapped to 3O4O numbering
   
   if(!is.na(mapped) && mapped %in% ids_3O4O){
-    # contact exists in both → shared
-    output_list[[i]] <- c(original, mapped, "shared")
+    output_list[[index]] <- c(original, mapped, "shared")
     ids_3O4O <- setdiff(ids_3O4O, mapped)
   } else {
     # only in 1ITB
-    output_list[[i]] <- c(original, mapped, "1ITB_unique")
+    output_list[[index]] <- c(original, mapped, "1ITB_unique")
   }
+  index <- index + 1
 }
 
 # add remaining contacts
-start_index <- length(output_list) + 1
 for(j in 1:length(ids_3O4O)){
-  output_list[[start_index]] <- c(
-    NA,            
-    ids_3O4O[j],    
-    "3O4O_unique"   
+  output_list[[index]] <- c(
+    NA,
+    ids_3O4O[j],
+    "3O4O_unique"
   )
-  start_index <- start_index + 1
+  index <- index + 1
 }
 
 # combine into a data frame
-output_df <- data.frame(do.call(rbind, output_list),
-                        stringsAsFactors = FALSE)
+output_df <- do.call(rbind, output_list)
+output_df <- as.data.frame(output_df, stringsAsFactors = FALSE)
 colnames(output_df) <- c("1ITB_contact", "3O4O_contact", "status")
-
-# convert status to character to avoid list errors
-output_df$status <- as.character(output_df$status)
 
 # sort by status
 output_df <- output_df[order(output_df$status), ]
 
 # save result
-write.csv(output_df, "~/Dropbox/getcontacts/receptors_il1b/contact_statuses.csv", row.names = FALSE)
+write.csv(output_df, "~/Dropbox/getcontacts/receptors_il1b/contact_statuses.csv")
