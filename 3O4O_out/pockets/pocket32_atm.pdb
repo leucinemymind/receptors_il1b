@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0412
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9147
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5791
+HEADER 5  - Mean B-factor of pocket residues  : 0.4611
+HEADER 6  - Hydrophobicity Score              : -6.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 334.0630
+HEADER 10 - Pocket volume (convex hull)       : 18.4884
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM   5848  NH1 ARG B 257     -28.778 -11.961   0.652  0.00  0.00           N 0
+ATOM   6323  NH2 ARG B 315     -34.743 -16.946   1.552  0.00  0.00           N 0
+ATOM   6322  NH1 ARG B 315     -35.933 -15.282   0.512  0.00  0.00           N 0
+ATOM   5866  OE2 GLU B 259     -32.220 -15.991  -1.358  0.86  3.21           O 0
+ATOM   6330    N ALA B 317     -35.087 -11.343  -5.052  0.48  8.75           N 0
+ATOM   5844   CG ARG B 257     -30.212 -12.885  -2.041  0.00  0.00           C 0
+ATOM   5845   CD ARG B 257     -29.917 -11.404  -1.867  0.00  0.00           C 0
+ATOM   6344    N GLY B 319     -40.054 -14.189  -5.952  0.55  4.37           N 0
+ATOM   6317   CB ARG B 315     -36.806 -16.584  -4.034  0.00  0.00           C 0
+ATOM   6345   CA GLY B 319     -40.145 -15.605  -5.618  0.00  0.00           C 0
+ATOM   6337    C LYS B 318     -38.874 -13.582  -6.065  0.00  0.00           C 0
+ATOM   6331   CA ALA B 317     -35.846 -10.097  -5.034  0.00  0.00           C 0
+ATOM   6335    N LYS B 318     -37.547 -11.591  -5.889  0.74  2.19           N 0
+ATOM   6318   CG ARG B 315     -35.888 -16.930  -2.865  0.00  0.00           C 0
+ATOM   6332    C ALA B 317     -37.266 -10.333  -5.552  0.00  0.00           C 0
+ATOM   6319   CD ARG B 315     -36.681 -17.033  -1.567  0.00  0.00           C 0
+ATOM   6316    O ARG B 315     -33.850 -15.968  -5.068  0.00  0.00           O 0
+ATOM   6338    O LYS B 318     -37.809 -14.195  -6.007  0.83  1.07           O 0
+ATOM   6315    C ARG B 315     -34.969 -15.638  -5.462  0.00  0.00           C 0
+ATOM   6325   CA SER B 316     -34.226 -13.382  -6.045  0.00  0.00           C 0
+TER
+END

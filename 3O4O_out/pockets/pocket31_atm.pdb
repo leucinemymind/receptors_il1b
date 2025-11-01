@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0411
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8951
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5650
+HEADER 5  - Mean B-factor of pocket residues  : 0.5914
+HEADER 6  - Hydrophobicity Score              : 24.1429
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 241.6327
+HEADER 10 - Pocket volume (convex hull)       : 3.1196
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0526
+ATOM   5882  NE1 TRP B 261     -37.058 -24.811  -0.910  0.48  2.19           N 0
+ATOM   5885  CZ2 TRP B 261     -37.727 -22.410  -1.163  0.00  0.00           C 0
+ATOM   5926   CA GLY B 266     -40.723 -28.340   3.343  0.00  0.00           C 0
+ATOM   5928    O GLY B 266     -39.470 -27.819   5.305  0.68  5.36           O 0
+ATOM   5927    C GLY B 266     -39.606 -28.577   4.344  0.00  0.00           C 0
+ATOM   5938    N LYS B 268     -35.565 -29.654   3.834  0.00  0.00           N 0
+ATOM   5880  CD1 TRP B 261     -35.920 -25.521  -1.203  0.00  0.00           C 0
+ATOM   5891    O TRP B 262     -35.984 -28.708  -1.459  0.60  2.14           O 0
+ATOM   5929    N LYS B 267     -38.797 -29.612   4.131  0.00  0.00           N 0
+ATOM   5908  CG2 THR B 263     -40.720 -28.235  -0.494  0.00  0.00           C 0
+ATOM   5907  OG1 THR B 263     -39.170 -26.873  -1.733  0.69  2.14           O 0
+ATOM   5903   CA THR B 263     -38.693 -29.245  -1.575  0.00  0.00           C 0
+ATOM   6307  NE2 HIS B 313     -41.615 -23.643  -3.360  0.56  4.37           N 0
+ATOM   6306  CE1 HIS B 313     -41.265 -24.914  -3.341  0.00  0.00           C 0
+TER
+END

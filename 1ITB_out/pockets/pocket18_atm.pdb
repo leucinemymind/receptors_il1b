@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.0686
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.8460
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4896
+HEADER 5  - Mean B-factor of pocket residues  : 0.3254
+HEADER 6  - Hydrophobicity Score              : 37.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.0584
+HEADER 10 - Pocket volume (convex hull)       : 5.0974
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1429
+ATOM   3039    N LYS B 161      23.937  19.497   3.945  0.00  0.00           N 0
+ATOM   2820    O PRO B 139      17.703  18.740   4.800  0.54  2.14           O 0
+ATOM   2825   CA LYS B 140      16.802  21.352   4.529  0.00  0.00           C 0
+ATOM   2811    O LEU B 138      17.998  17.459   2.012  0.31  9.64           O 0
+ATOM   3040   CA LYS B 161      23.362  18.179   4.110  0.00  0.00           C 0
+ATOM   2829   CG LYS B 140      16.066  22.742   2.437  0.00  0.00           C 0
+ATOM   3029    O GLY B 159      24.752  23.923   4.623  0.00  0.00           O 0
+ATOM   2828   CB LYS B 140      16.128  22.627   3.981  0.00  0.00           C 0
+ATOM   2837    N LEU B 141      17.956  21.312   6.658  0.50  2.19           N 0
+ATOM   3042    O LYS B 161      22.650  18.873   6.332  0.41  1.07           O 0
+ATOM   2841   CB LEU B 141      19.216  20.477   8.611  0.00  0.00           C 0
+ATOM   2840    O LEU B 141      18.867  23.605   8.193  0.51  4.29           O 0
+ATOM   3028    C GLY B 159      25.007  23.267   5.632  0.00  0.00           C 0
+ATOM   2961  CD1 LEU B 152      22.340  26.280   8.273  0.00  0.00           C 0
+ATOM   2866  NE1 TRP B 143      22.078  21.634  10.418  0.00  0.00           N 0
+ATOM   3027   CA GLY B 159      24.928  23.916   6.995  0.00  0.00           C 0
+TER
+END

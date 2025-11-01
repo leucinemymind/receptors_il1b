@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.0207
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6735
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4900
+HEADER 5  - Mean B-factor of pocket residues  : 0.7100
+HEADER 6  - Hydrophobicity Score              : 15.8333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 164.5008
+HEADER 10 - Pocket volume (convex hull)       : 1.9829
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6111
+ATOM   3532    O PRO C 301     -33.977 -47.395 -45.354  0.00  0.00           O 0
+ATOM   3044   CB ARG C 240     -37.369 -49.240 -41.685  0.00  0.00           C 0
+ATOM   3041   CA ARG C 240     -35.930 -49.091 -41.176  0.00  0.00           C 0
+ATOM   3517  CD2 PHE C 299     -36.571 -42.197 -42.480  0.00  0.00           C 0
+ATOM   3519  CE2 PHE C 299     -37.881 -42.223 -42.045  0.00  0.00           C 0
+ATOM   3053    C LEU C 241     -36.048 -45.298 -38.402  0.00  0.00           C 0
+ATOM   3054    O LEU C 241     -35.696 -44.319 -39.063  0.71  1.07           O 0
+ATOM   3063   CB THR C 242     -39.443 -44.495 -37.207  0.00  0.00           C 0
+ATOM   3059    N THR C 242     -37.146 -45.312 -37.655  0.70  1.09           N 0
+ATOM   3045   CG ARG C 240     -38.388 -49.617 -40.615  0.00  0.00           C 0
+ATOM   3051    N LEU C 241     -35.289 -47.275 -39.689  0.68  3.28           N 0
+ATOM   3515   CG PHE C 299     -35.537 -41.923 -41.602  0.00  0.00           C 0
+ATOM   3524    O ASP C 300     -31.982 -46.851 -42.471  0.00  0.00           O 0
+ATOM   3530   CA PRO C 301     -32.600 -45.490 -44.949  0.00  0.00           C 0
+ATOM   3520   CZ PHE C 299     -38.173 -41.969 -40.721  0.00  0.00           C 0
+ATOM   3060   CA THR C 242     -37.974 -44.126 -37.482  0.00  0.00           C 0
+TER
+END

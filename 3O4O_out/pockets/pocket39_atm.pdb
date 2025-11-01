@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    39:
+HEADER 0  - Pocket Score                      : -0.0649
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9692
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6402
+HEADER 5  - Mean B-factor of pocket residues  : 0.5246
+HEADER 6  - Hydrophobicity Score              : 11.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 155.4919
+HEADER 10 - Pocket volume (convex hull)       : 1.5605
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   1749  OD1 ASP C  77     -11.858  20.186 -52.538  0.68  5.36           O 0
+ATOM   1491  CZ3 TRP C  45      -8.539  16.724 -55.045  0.00  0.00           C 0
+ATOM   1533  NH1 ARG C  51      -6.260  19.640 -57.708  0.00  0.00           N 0
+ATOM   1534  NH2 ARG C  51      -5.584  19.071 -55.590  0.71  8.75           N 0
+ATOM   1736    C GLN C  76     -13.959  19.965 -55.704  0.00  0.00           C 0
+ATOM   1732    O ALA C  75     -14.148  22.357 -58.020  0.00  0.00           O 0
+ATOM   1737    O GLN C  76     -14.045  19.365 -56.774  0.72  5.36           O 0
+ATOM   1744   CA ASP C  77     -12.469  18.276 -54.797  0.00  0.00           C 0
+ATOM   1747   CB ASP C  77     -11.622  18.033 -53.537  0.00  0.00           C 0
+ATOM   1743    N ASP C  77     -13.236  19.513 -54.685  0.00  0.00           N 0
+ATOM   1735   CA GLN C  76     -14.701  21.282 -55.498  0.00  0.00           C 0
+ATOM   1741  OE1 GLN C  76     -14.146  23.972 -53.586  0.00  0.00           O 0
+ATOM   1492  CH2 TRP C  45      -9.722  16.555 -55.775  0.00  0.00           C 0
+TER
+END

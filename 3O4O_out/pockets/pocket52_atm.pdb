@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    52:
+HEADER 0  - Pocket Score                      : -0.1168
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9302
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6645
+HEADER 5  - Mean B-factor of pocket residues  : 0.2177
+HEADER 6  - Hydrophobicity Score              : 5.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 145.9521
+HEADER 10 - Pocket volume (convex hull)       : 1.7047
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   5352   CB THR B 195      -2.433  17.035 -17.692  0.00  0.00           C 0
+ATOM   5351    O THR B 195      -4.680  18.643 -16.013  0.00  0.00           O 0
+ATOM   5354  CG2 THR B 195      -1.016  17.489 -17.394  0.00  0.00           C 0
+ATOM   5028  OG1 THR B 154      -5.442  20.255 -21.182  0.00  0.00           O 0
+ATOM   5371   CB PRO B 197      -0.622  24.120 -14.537  0.00  0.00           C 0
+ATOM   5373   CD PRO B 197      -2.732  22.939 -14.466  0.00  0.00           C 0
+ATOM   5372   CG PRO B 197      -2.107  24.330 -14.516  0.00  0.00           C 0
+ATOM   5412  CG2 THR B 202       1.822  20.931 -17.167  0.00  0.00           C 0
+ATOM   5350    C THR B 195      -3.573  18.148 -15.797  0.00  0.00           C 0
+ATOM   5027   CB THR B 154      -5.556  18.948 -20.606  0.00  0.00           C 0
+ATOM   5355    N TYR B 196      -2.650  18.741 -15.047  0.00  0.00           N 0
+ATOM   5023    N THR B 154      -6.653  19.669 -18.525  0.53  1.09           N 0
+ATOM   5010    O LYS B 152      -6.944  23.409 -16.896  0.37  7.50           O 0
+ATOM   5356   CA TYR B 196      -2.902  20.034 -14.424  0.00  0.00           C 0
+ATOM   5367    N PRO B 197      -1.606  22.076 -14.061  0.00  0.00           N 0
+ATOM   5357    C TYR B 196      -1.613  20.736 -13.997  0.00  0.00           C 0
+TER
+END

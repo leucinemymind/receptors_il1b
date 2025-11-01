@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.0471
+HEADER 1  - Drug Score                        : 0.0052
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6366
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3847
+HEADER 5  - Mean B-factor of pocket residues  : 0.4515
+HEADER 6  - Hydrophobicity Score              : 27.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 114.3860
+HEADER 10 - Pocket volume (convex hull)       : 2.9539
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8824
+ATOM    376  OE1 GLN A  48     -26.092 -27.194 -34.970  0.68  3.21           O 0
+ATOM    375   CD GLN A  48     -25.497 -27.268 -36.156  0.00  0.00           C 0
+ATOM    445   CD PRO A  57     -22.451 -21.779 -34.738  0.00  0.00           C 0
+ATOM    374   CG GLN A  48     -24.015 -26.931 -36.188  0.00  0.00           C 0
+ATOM   3178   CG MET C 258     -30.701 -23.754 -36.573  0.00  0.00           C 0
+ATOM    355   CB PHE A  46     -27.387 -22.782 -39.542  0.00  0.00           C 0
+ATOM    437  CG2 ILE A  56     -26.158 -19.877 -35.051  0.00  0.00           C 0
+ATOM   3659  CD2 HIS C 316     -26.987 -23.131 -31.407  0.00  0.00           C 0
+ATOM    399  OE2 GLU A  51     -22.729 -26.693 -33.607  0.67  5.36           O 0
+ATOM   3655    O HIS C 316     -30.817 -23.284 -32.350  0.00  0.00           O 0
+ATOM    442    O PRO A  57     -23.895 -21.093 -38.037  0.71  2.14           O 0
+ATOM    369    N GLN A  48     -22.884 -24.580 -38.839  0.00  0.00           N 0
+ATOM    370   CA GLN A  48     -22.610 -25.354 -37.636  0.00  0.00           C 0
+ATOM   3177   CB MET C 258     -30.851 -24.650 -35.366  0.00  0.00           C 0
+TER
+END

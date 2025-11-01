@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0828
+HEADER 1  - Drug Score                        : 0.0163
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.6483
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4222
+HEADER 5  - Mean B-factor of pocket residues  : 0.2041
+HEADER 6  - Hydrophobicity Score              : 40.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.9091
+HEADER 9  - Pocket volume (Monte Carlo)       : 137.5464
+HEADER 10 - Pocket volume (convex hull)       : 6.1935
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.6522
+ATOM     28   CB ARG A   4      55.377   0.715  20.809  0.00  0.00           C 0
+ATOM   4018  CE2 TYR B 261      60.207   0.191  20.200  0.00  0.00           C 0
+ATOM   3821    O ALA B 241      61.171   3.388  20.223  0.53  1.07           O 0
+ATOM   4016  CD2 TYR B 261      59.757   0.516  21.508  0.00  0.00           C 0
+ATOM   3816  CD1 ILE B 240      56.640   5.134  15.630  0.00  0.00           C 0
+ATOM    464  NE2 GLN A  48      59.550  -0.890  15.119  0.61  2.19           N 0
+ATOM   3828   CB TYR B 242      61.879   2.263  17.105  0.00  0.00           C 0
+ATOM   4020   OH TYR B 261      60.452  -1.458  18.466  0.60  1.07           O 0
+ATOM   4019   CZ TYR B 261      60.124  -1.132  19.754  0.00  0.00           C 0
+ATOM    439    O PHE A  46      54.883  -1.671  16.374  0.54  3.21           O 0
+ATOM   3813   CB ILE B 240      56.808   5.598  18.131  0.00  0.00           C 0
+ATOM   3818    N ALA B 241      59.455   5.744  19.732  0.41  2.19           N 0
+ATOM   3830  CD1 TYR B 242      60.793   4.213  15.929  0.00  0.00           C 0
+ATOM    440   CB PHE A  46      53.996   1.112  16.653  0.00  0.00           C 0
+ATOM    491  OE2 GLU A  51      58.565   1.973  12.087  0.53  3.21           O 0
+ATOM   3815  CG2 ILE B 240      55.376   5.208  18.369  0.00  0.00           C 0
+ATOM    540  CG2 ILE A  56      53.313   4.547  12.615  0.00  0.00           C 0
+ATOM    546    O PRO A  57      52.418   0.694  12.423  0.00  0.00           O 0
+ATOM    451    O VAL A  47      55.083  -1.358  12.505  0.44  1.07           O 0
+TER
+END

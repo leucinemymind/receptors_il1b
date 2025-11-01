@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.1067
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8991
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6436
+HEADER 5  - Mean B-factor of pocket residues  : 0.6508
+HEADER 6  - Hydrophobicity Score              : -7.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 211.5813
+HEADER 10 - Pocket volume (convex hull)       : 11.9553
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   4435  NE2 HIS B 301      50.778  16.806  13.317  0.85  4.37           N 0
+ATOM   3489  ND2 ASN B 204      45.862  16.039  17.313  0.64  4.37           N 0
+ATOM   4434  CE1 HIS B 301      51.237  16.423  14.494  0.00  0.00           C 0
+ATOM   3485    O ASN B 204      46.835  20.470  16.958  0.57  8.57           O 0
+ATOM   1064  OD1 ASN A 108      44.612  17.581  15.073  0.59  4.29           O 0
+ATOM   3510   CB PRO B 206      51.579  19.644  14.900  0.00  0.00           C 0
+ATOM   3512   CD PRO B 206      50.214  21.295  15.858  0.00  0.00           C 0
+ATOM   3511   CG PRO B 206      51.262  21.095  14.789  0.00  0.00           C 0
+ATOM   1058    N ASN A 108      44.828  16.153  10.693  0.69  1.09           N 0
+ATOM   1062   CB ASN A 108      43.979  16.689  12.937  0.00  0.00           C 0
+ATOM   1054  ND2 ASN A 107      44.662  20.212   8.039  0.00  0.00           N 0
+ATOM   1063   CG ASN A 108      44.656  16.617  14.311  0.00  0.00           C 0
+ATOM   1036  OE2 GLU A 105      47.819  14.098  13.248  0.32  1.07           O 0
+ATOM   1041    O ILE A 106      47.118  16.371   7.977  0.00  0.00           O 0
+ATOM   1048   CA ASN A 107      44.545  17.249   8.592  0.00  0.00           C 0
+ATOM   4433  CD2 HIS B 301      51.839  17.045  12.477  0.00  0.00           C 0
+ATOM   1049    C ASN A 107      43.984  16.822   9.913  0.00  0.00           C 0
+ATOM   1050    O ASN A 107      42.835  17.117  10.228  0.64  2.14           O 0
+TER
+END

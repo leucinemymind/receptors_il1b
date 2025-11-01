@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    46:
+HEADER 0  - Pocket Score                      : -0.0819
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 4.0835
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5357
+HEADER 5  - Mean B-factor of pocket residues  : 0.1960
+HEADER 6  - Hydrophobicity Score              : 20.7500
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 302.4389
+HEADER 10 - Pocket volume (convex hull)       : 20.0681
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1034
+ATOM   1013    O GLN A 126     -20.235   7.272 -41.140  0.00  0.00           O 0
+ATOM    106  OE1 GLN A  14     -22.329   6.307 -37.900  0.58  4.29           O 0
+ATOM   2546  OG1 THR C 177     -23.708  12.897 -37.525  0.46  6.43           O 0
+ATOM    231  CE1 HIS A  30     -26.043   7.791 -42.483  0.00  0.00           C 0
+ATOM   1029   CG GLU A 128     -22.138   9.249 -45.147  0.00  0.00           C 0
+ATOM   1031  OE1 GLU A 128     -23.815  10.926 -44.974  0.31  4.29           O 0
+ATOM   2228    O CYS C 139     -26.740  12.323 -41.047  0.46  2.14           O 0
+ATOM   2250   CB LEU C 142     -24.209  15.549 -43.168  0.00  0.00           C 0
+ATOM   2547  CG2 THR C 177     -25.606  13.714 -38.744  0.00  0.00           C 0
+ATOM   2254    N SER C 143     -21.699  14.275 -45.190  0.58  1.09           N 0
+ATOM   2285  OG1 THR C 146     -20.979  17.047 -41.627  0.80  3.21           O 0
+ATOM   2248    C LEU C 142     -22.242  15.376 -44.683  0.00  0.00           C 0
+ATOM   2222   CB VAL C 138     -27.401   8.944 -37.974  0.00  0.00           C 0
+ATOM   2556  CE1 HIS C 178     -24.170   8.756 -35.013  0.00  0.00           C 0
+ATOM   2286  CG2 THR C 146     -19.102  16.806 -40.148  0.00  0.00           C 0
+ATOM   2284   CB THR C 146     -19.559  16.877 -41.597  0.00  0.00           C 0
+ATOM   2224  CG2 VAL C 138     -27.458   8.584 -39.434  0.00  0.00           C 0
+ATOM   2255   CA SER C 143     -20.263  14.043 -45.183  0.00  0.00           C 0
+ATOM   2258   CB SER C 143     -19.943  12.709 -45.866  0.00  0.00           C 0
+ATOM   2259   OG SER C 143     -18.653  12.243 -45.512  0.23  7.50           O 0
+ATOM   2257    O SER C 143     -18.594  15.767 -45.236  0.52  1.07           O 0
+ATOM   2283    O THR C 146     -16.850  16.877 -41.847  0.46  7.50           O 0
+ATOM   1020   CA ALA A 127     -18.218   7.601 -42.964  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.1070
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9513
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5088
+HEADER 5  - Mean B-factor of pocket residues  : 0.2968
+HEADER 6  - Hydrophobicity Score              : 42.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 290.0448
+HEADER 10 - Pocket volume (convex hull)       : 19.8421
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4286
+ATOM   3629   CE MET B 219      76.771   3.680  26.117  0.00  0.00           C 0
+ATOM   3608   CG GLU B 217      76.959   9.593  22.620  0.00  0.00           C 0
+ATOM   3610  OE1 GLU B 217      76.228  10.957  24.419  0.32  9.64           O 0
+ATOM   3616    O THR B 218      80.524   7.210  23.340  0.39  5.36           O 0
+ATOM   3574    O SER B 213      72.028  10.055  24.415  0.56  1.07           O 0
+ATOM   3576   OG SER B 213      71.071   9.440  26.967  0.00  0.00           O 0
+ATOM   3609   CD GLU B 217      75.927  10.444  23.320  0.00  0.00           C 0
+ATOM   3725    O ILE B 230      69.101   5.690  25.487  0.75  6.43           O 0
+ATOM   3722    N ILE B 230      70.024   2.819  25.791  0.55  2.19           N 0
+ATOM   4493  CG1 ILE B 308      73.823   5.883  21.340  0.00  0.00           C 0
+ATOM   3704    O GLN B 228      72.784   0.287  27.337  0.00  0.00           O 0
+ATOM   3714   CA LEU B 229      71.586   1.149  24.957  0.00  0.00           C 0
+ATOM   3726   CB ILE B 230      68.485   3.531  27.578  0.00  0.00           C 0
+ATOM   3727  CG1 ILE B 230      68.755   2.201  28.308  0.00  0.00           C 0
+ATOM   3729  CD1 ILE B 230      68.772   2.328  29.827  0.00  0.00           C 0
+ATOM   4495  CD1 ILE B 308      74.243   7.237  21.857  0.00  0.00           C 0
+ATOM   3718   CG LEU B 229      73.360   1.491  23.012  0.00  0.00           C 0
+ATOM   4494  CG2 ILE B 308      76.029   4.827  21.658  0.00  0.00           C 0
+TER
+END

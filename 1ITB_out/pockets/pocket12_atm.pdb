@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0348
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7101
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4633
+HEADER 5  - Mean B-factor of pocket residues  : 0.3961
+HEADER 6  - Hydrophobicity Score              : 9.6250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.7220
+HEADER 10 - Pocket volume (convex hull)       : 3.1330
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1818
+ATOM   3241   CB HIS B 180      14.501  21.408  12.937  0.00  0.00           C 0
+ATOM   3364    O ILE B 192      13.481  17.490  13.032  0.77  1.07           O 0
+ATOM   3358   CB PRO B 191       8.207  18.112  12.809  0.00  0.00           C 0
+ATOM   3253    O ALA B 181      11.615  18.275  10.253  0.71  3.21           O 0
+ATOM   3252    C ALA B 181      12.243  18.520   9.213  0.00  0.00           C 0
+ATOM   3256    N SER B 182      11.659  18.614   8.018  0.00  0.00           N 0
+ATOM   3260   CB SER B 182       9.537  19.717   7.470  0.00  0.00           C 0
+ATOM   2854  NE2 GLN B 142      12.931  25.551   9.409  0.00  0.00           N 0
+ATOM   2827    O LYS B 140      15.703  21.404   6.641  0.64  5.36           O 0
+ATOM   3376  CG2 THR B 193      13.083  18.450  16.113  0.00  0.00           C 0
+ATOM   3243  ND1 HIS B 180      13.664  22.372  15.113  0.00  0.00           N 0
+ATOM   2853  OE1 GLN B 142      13.336  24.685  11.445  0.00  0.00           O 0
+ATOM   3239    C HIS B 180      15.005  20.055  10.918  0.00  0.00           C 0
+ATOM   2852   CD GLN B 142      13.708  24.940  10.290  0.00  0.00           C 0
+ATOM   3240    O HIS B 180      15.448  20.846  10.080  0.00  0.00           O 0
+ATOM   3251   CA ALA B 181      13.767  18.791   9.241  0.00  0.00           C 0
+TER
+END

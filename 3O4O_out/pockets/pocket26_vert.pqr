@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0248
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of V. Vertices             :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5530
+HEADER 4  - Mean alpha-sphere SA              : 0.3993
+HEADER 5  - Mean B-factor                     : 0.2361
+HEADER 6  - Hydrophobicity Score              : 21.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 3.8750
+HEADER 9  - Real volume (approximation)       : 124.2346
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM      1    O STP    26     -26.237 -11.635 -10.114    0.00     3.43
+ATOM      2    O STP    26     -24.858 -11.173  -8.784    0.00     3.96
+ATOM      3    O STP    26     -24.741 -11.118  -8.872    0.00     4.00
+ATOM      4    O STP    26     -28.112 -13.006 -12.322    0.00     3.41
+ATOM      5    O STP    26     -28.154 -12.986 -12.337    0.00     3.43
+ATOM      6    O STP    26     -27.754 -12.690 -11.877    0.00     3.48
+ATOM      7    O STP    26     -28.003 -12.648 -12.014    0.00     3.50
+ATOM      8    O STP    26     -27.412 -12.606 -11.407    0.00     3.47
+ATOM      9    O STP    26     -27.447 -12.104 -10.438    0.00     3.61
+ATOM     10    O STP    26     -28.277 -11.919 -10.806    0.00     3.56
+ATOM     11    O STP    26     -28.377 -11.906 -10.703    0.00     3.52
+ATOM     12    O STP    26     -27.202 -12.063  -9.657    0.00     3.49
+ATOM     13    O STP    26     -27.418 -12.298  -9.626    0.00     3.43
+ATOM     14    O STP    26     -27.438 -12.135  -9.975    0.00     3.55
+ATOM     15    O STP    26     -28.434 -11.846 -10.699    0.00     3.48
+ATOM     16    O STP    26     -28.297 -11.878 -10.825    0.00     3.53
+TER
+END

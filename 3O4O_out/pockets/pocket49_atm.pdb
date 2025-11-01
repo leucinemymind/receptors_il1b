@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.1009
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9929
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5598
+HEADER 5  - Mean B-factor of pocket residues  : 0.4914
+HEADER 6  - Hydrophobicity Score              : 21.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 196.6208
+HEADER 10 - Pocket volume (convex hull)       : 4.3682
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1249   NE ARG C  18     -16.677   0.992 -63.392  0.55  5.47           N 0
+ATOM   1248   CD ARG C  18     -16.011   1.932 -64.290  0.00  0.00           C 0
+ATOM   1971   SD MET C 106     -19.180   4.555 -61.852  0.00  0.00           S 0
+ATOM   1425    O GLN C  39     -15.213   4.673 -57.991  0.00  0.00           O 0
+ATOM   1955  OD2 ASP C 104     -13.219   5.736 -66.074  0.81  1.07           O 0
+ATOM   1436  CG1 VAL C  40     -13.402   8.879 -60.383  0.00  0.00           C 0
+ATOM   1941   OH TYR C 102      -8.493   6.867 -63.403  0.90  5.36           O 0
+ATOM   1898  OG1 THR C  97     -12.855   8.177 -65.369  0.74  1.07           O 0
+ATOM   1954  OD1 ASP C 104     -13.538   3.572 -65.872  0.67  7.50           O 0
+ATOM   1938  CE1 TYR C 102      -7.649   4.980 -64.578  0.00  0.00           C 0
+ATOM   1940   CZ TYR C 102      -8.406   6.130 -64.561  0.00  0.00           C 0
+ATOM   1437  CG2 VAL C  40     -15.359   7.620 -61.332  0.00  0.00           C 0
+ATOM   1899  CG2 THR C  97     -12.463   9.653 -63.520  0.00  0.00           C 0
+ATOM   1432   CA VAL C  40     -14.589   7.162 -58.978  0.00  0.00           C 0
+ATOM   1434    O VAL C  40     -12.541   7.047 -57.738  0.00  0.00           O 0
+TER
+END

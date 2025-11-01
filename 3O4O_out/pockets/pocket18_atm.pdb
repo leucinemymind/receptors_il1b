@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.0032
+HEADER 1  - Drug Score                        : 0.0066
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7465
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3971
+HEADER 5  - Mean B-factor of pocket residues  : 0.1019
+HEADER 6  - Hydrophobicity Score              : 95.5556
+HEADER 7  - Polarity Score                    :     0
+HEADER 8  - Amino Acid based volume Score     : 5.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 128.4802
+HEADER 10 - Pocket volume (convex hull)       : 2.0188
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM    139  CD2 LEU A  18     -24.777  -3.712 -44.170  0.00  0.00           C 0
+ATOM   1061  CG1 VAL A 132     -18.869  -5.351 -44.759  0.00  0.00           C 0
+ATOM    137   CG LEU A  18     -24.760  -3.981 -45.657  0.00  0.00           C 0
+ATOM   1062  CG2 VAL A 132     -20.430  -3.469 -45.294  0.00  0.00           C 0
+ATOM    989  CG2 ILE A 122     -19.479  -7.386 -41.548  0.00  0.00           C 0
+ATOM    539  CD1 LEU A  69     -20.174 -10.764 -46.159  0.00  0.00           C 0
+ATOM     72  CD1 LEU A  10     -25.672  -8.452 -42.155  0.00  0.00           C 0
+ATOM    990  CD1 ILE A 122     -19.756 -10.390 -41.747  0.00  0.00           C 0
+ATOM    464  CD1 LEU A  60     -24.521 -12.354 -43.821  0.00  0.00           C 0
+ATOM    199  CD1 LEU A  26     -21.842  -6.637 -48.752  0.00  0.00           C 0
+ATOM    330   CZ PHE A  42     -25.035  -8.695 -46.816  0.00  0.00           C 0
+ATOM   1164   CZ PHE A 146     -21.699  -4.808 -39.609  0.00  0.00           C 0
+ATOM   1163  CE2 PHE A 146     -22.160  -5.970 -39.033  0.00  0.00           C 0
+TER
+END

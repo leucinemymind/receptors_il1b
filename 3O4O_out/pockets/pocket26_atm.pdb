@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0248
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5530
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3993
+HEADER 5  - Mean B-factor of pocket residues  : 0.2361
+HEADER 6  - Hydrophobicity Score              : 21.3750
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 124.2346
+HEADER 10 - Pocket volume (convex hull)       : 1.5302
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   5812    O LEU B 253     -27.798  -8.629  -9.543  0.60  4.29           O 0
+ATOM   5804  CD1 PHE B 252     -26.549  -9.569 -12.840  0.00  0.00           C 0
+ATOM   5806  CE1 PHE B 252     -25.512  -8.971 -12.157  0.00  0.00           C 0
+ATOM   6119  OE2 GLU B 290     -25.233 -14.918 -10.019  0.00  0.00           O 0
+ATOM   5836    O SER B 256     -27.703 -12.150  -6.207  0.34  8.57           O 0
+ATOM   5820    O MET B 254     -26.004  -7.979  -6.741  0.46  7.50           O 0
+ATOM   5857  ND2 ASN B 258     -29.088 -15.279  -9.970  0.52  1.09           N 0
+ATOM   6111    N GLU B 290     -27.411 -15.327 -14.724  0.30  1.09           N 0
+ATOM   6097    O GLU B 288     -25.911 -12.112 -14.773  0.59  1.07           O 0
+ATOM   6116   CG GLU B 290     -26.044 -15.713 -12.110  0.00  0.00           C 0
+ATOM   5795    O SER B 251     -31.339 -11.755 -12.607  0.37  3.21           O 0
+ATOM   5837   CB SER B 256     -29.674 -10.543  -7.723  0.00  0.00           C 0
+ATOM   5809    N LEU B 253     -29.574  -8.652 -11.465  0.00  0.00           N 0
+TER
+END
