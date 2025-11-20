@@ -25,7 +25,7 @@ pdb_1ITB <- read.pdb("~/Dropbox/getcontacts/receptors_il1b/1ITB_out/1ITB_out_tri
 pdb_3O4O <- read.pdb("~/Dropbox/getcontacts/receptors_il1b/3O4O_out/3O4O_out_trimmed.pdb")
 
 user_resnum <- 1
-code <- "3"
+code <- "3O4O"
 
 sub_df_1ITB <- subset(pdb_1ITB$atom, resno == user_resnum)
 sub_df_3O4O <- subset(pdb_3O4O$atom, resno == user_resnum)

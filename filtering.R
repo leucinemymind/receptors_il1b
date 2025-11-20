@@ -18,7 +18,7 @@ df_1ITB <- read.csv("~/Dropbox/getcontacts/receptors_il1b/unique_1ITB.csv")
 df_3O4O <- read.csv("~/Dropbox/getcontacts/receptors_il1b/unique_3O4O.csv")
 mapping <- read.csv("~/Dropbox/getcontacts/receptors_il1b/contact_alignment.csv")
 
-# split into 3 separate columns
+# split into 3 separate colns
 df_1ITB_split <- separate(df_1ITB, col = atom1, into = c("chain1", "resn1", "resnum1"), sep = ":", convert = TRUE)
 df_1ITB_split <- separate(df_1ITB_split, col = atom2, into = c("chain2", "resn2", "resnum2"), sep = ":", convert = TRUE)
 
@@ -46,12 +46,13 @@ df_3O4O_split$contact_id <- paste0(df_3O4O_split$resn1,
 # mapping 1itb -> 3o4o
 b_to_c <- setNames(mapping$receptor2_index, mapping$receptor1_index)
 
-# map residues safely using sapply
+# map residues safely using sapply  %  this is where the errors started
 map_resn1 <- sapply(df_1ITB_split$resnum1, function(x){
   mapped_num <- b_to_c[as.character(x)]
   print(mapped_num)
-  if(!is.na(mapped_num)){
-    df_3O4O_split$resn1[df_3O4O_split$resnum1 == mapped_num]
+  if(!is.na(mapped_num) && mapped_num != -1){
+    vals_1ITB <- df_3O4O_split$resn1[df_3O4O_split$resnum1 == mapped_num]
+    vals_1ITB[1]
   } else {
     NA
   }
@@ -59,14 +60,15 @@ map_resn1 <- sapply(df_1ITB_split$resnum1, function(x){
 
 map_resn2 <- sapply(df_1ITB_split$resnum2, function(x){
   mapped_num <- b_to_c[as.character(x)]
-  if(!is.na(mapped_num)){
-    df_3O4O_split$resn2[df_3O4O_split$resnum2 == mapped_num]
+  if(!is.na(mapped_num) && mapped_num != -1){
+    vals_3O4O <- df_3O4O_split$resn2[df_3O4O_split$resnum2 == mapped_num]
+    vals_3O4O[1]
   } else {
     NA
   }
 })
 
-df_1ITB_split$mapped_contact <- paste0(
+df_1ITB_split$mapped_contact <- paste(
   map_resn1, b_to_c[as.character(df_1ITB_split$resnum1)],
   "-",
   map_resn2, b_to_c[as.character(df_1ITB_split$resnum2)]
@@ -95,10 +97,7 @@ for(i in 1:nrow(df_1ITB_split)){
 
 # add remaining contacts
 for(j in 1:length(ids_3O4O)){
-  output_list[[index]] <- c(
-    NA,
-    ids_3O4O[j],
-    "3O4O_unique"
+  output_list[[index]] <- c( NA, ids_3O4O[j], "3O4O_unique"
   )
   index <- index + 1
 }
