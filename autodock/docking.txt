@@ -1,0 +1,13 @@
+receptor = IL1B.pdbqt
+ligand = aspirin.pdbqt
+
+center_x = 18.1500504
+center_y = -0.3631765
+center_z = 10.4987311
+
+size_x = 25
+size_y = 25
+size_z = 25
+
+exhaustiveness = 8
+num_modes = 9

@@ -1,0 +1,14 @@
+REMARK  Name = benzene.pdb
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       1.382  -0.214   0.008  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1       0.510  -1.302  -0.001  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -0.869  -1.091  -0.010  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -1.376   0.209  -0.006  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -0.503   1.297   0.004  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       0.876   1.086   0.010  0.00  0.00    +0.000 A 
+ENDROOT
+TORSDOF 0

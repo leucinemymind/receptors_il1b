@@ -14,7 +14,7 @@ aa3_to_1 <- function(aa3){
   aa_dict[aa3]
 }
 
-df_1ITB <- read.csv("~/Dropbox/getcontacts/receptors_il1b/unique_1ITB.csv")
+df_1ITB <- read.csv("~/Dropbox/getcontacts/receptors_il1b/unique_1eITB.csv")
 df_3O4O <- read.csv("~/Dropbox/getcontacts/receptors_il1b/unique_3O4O.csv")
 mapping <- read.csv("~/Dropbox/getcontacts/receptors_il1b/contact_alignment.csv")
 
@@ -63,7 +63,8 @@ map_resn2 <- sapply(df_1ITB_split$resnum2, function(x){
   if(!is.na(mapped_num) && mapped_num != -1){
     vals_3O4O <- df_3O4O_split$resn2[df_3O4O_split$resnum2 == mapped_num]
     vals_3O4O[1]
-  } else {
+  }
+  else {
     NA
   }
 })
