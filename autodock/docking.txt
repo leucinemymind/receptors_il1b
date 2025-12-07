@@ -1,5 +1,5 @@
-receptor = IL1B.pdbqt
-ligand = aspirin.pdbqt
+receptor = 1ITB_out.pdbqt
+ligand = benzene.pdbqt
 
 center_x = 18.1500504
 center_y = -0.3631765
