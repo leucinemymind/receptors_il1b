@@ -16,5 +16,5 @@ Detected 8 CPUs
 Reading input ... done.
 Setting up the scoring function ... done.
 Analyzing the binding site ... done.
-Using random seed: 63167866
+Using random seed: 1877743920
 Performing search ... 
