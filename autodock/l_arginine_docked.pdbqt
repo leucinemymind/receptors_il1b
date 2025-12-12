@@ -1,0 +1,126 @@
+MODEL 1
+REMARK VINA RESULT:      -5.5      0.000      0.000
+REMARK SMILES NC(N)=NCCC[C@H](N)C(=O)O
+REMARK SMILES IDX 7 1 8 2 10 3 11 4 12 5 9 7 6 10 5 11 4 12 2 13 1 14 3 15
+REMARK H PARENT 12 6 9 8 9 9 1 16 1 17 3 18 3 19
+ROOT
+ATOM      1  C   UNL     1      22.496  10.203   7.456  1.00  0.00     0.032 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      22.402   9.909   8.407  1.00  0.00     0.162 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      22.644  10.534   9.149  1.00  0.00     0.320 C 
+ATOM      4  O   UNL     1      23.107  10.186   9.965  1.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1      22.423  11.507   9.076  1.00  0.00    -0.480 OA
+ATOM      6  H   UNL     1      21.974  11.750   9.429  1.00  0.00     0.296 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  N   UNL     1      22.067   8.991   8.616  1.00  0.00    -0.318 NA
+ATOM      8  H   UNL     1      21.477   8.907   8.787  1.00  0.00     0.119 HD
+ATOM      9  H   UNL     1      22.449   8.504   8.574  1.00  0.00     0.119 HD
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  C   UNL     1      22.726   9.537   6.747  1.00  0.00     0.026 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1      22.759   9.818   5.788  1.00  0.00     0.146 C 
+BRANCH  11  12
+ATOM     12  N   UNL     1      22.868   9.132   5.069  1.00  0.00    -0.254 NA
+ATOM     13  C   UNL     1      22.807   9.400   4.107  1.00  0.00     0.185 C 
+ATOM     14  N   UNL     1      22.916   8.714   3.388  1.00  0.00    -0.370 N 
+ATOM     15  N   UNL     1      22.637  10.356   3.865  1.00  0.00    -0.370 N 
+ATOM     16  H   UNL     1      22.878   8.880   2.792  1.00  0.00     0.159 HD
+ATOM     17  H   UNL     1      23.021   8.122   3.539  1.00  0.00     0.159 HD
+ATOM     18  H   UNL     1      22.600  10.522   3.269  1.00  0.00     0.159 HD
+ATOM     19  H   UNL     1      22.570  10.781   4.311  1.00  0.00     0.159 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.3     16.457     17.369
+REMARK SMILES NC(N)=NCCC[C@H](N)C(=O)O
+REMARK SMILES IDX 7 1 8 2 10 3 11 4 12 5 9 7 6 10 5 11 4 12 2 13 1 14 3 15
+REMARK H PARENT 12 6 9 8 9 9 1 16 1 17 3 18 3 19
+ROOT
+ATOM      1  C   UNL     1      23.618  -5.873  11.263  1.00  0.00     0.032 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      23.822  -4.896  11.194  1.00  0.00     0.162 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      23.879  -4.460  10.297  1.00  0.00     0.320 C 
+ATOM      4  O   UNL     1      24.737  -4.481   9.784  1.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1      23.077  -4.002   9.912  1.00  0.00    -0.480 OA
+ATOM      6  H   UNL     1      22.509  -4.156  10.106  1.00  0.00     0.296 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  N   UNL     1      23.968  -4.357  12.023  1.00  0.00    -0.318 NA
+ATOM      8  H   UNL     1      23.511  -4.295  12.438  1.00  0.00     0.119 HD
+ATOM      9  H   UNL     1      24.516  -4.083  12.123  1.00  0.00     0.119 HD
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  C   UNL     1      23.590  -6.316  12.159  1.00  0.00     0.026 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1      24.024  -7.207  12.291  1.00  0.00     0.146 C 
+BRANCH  11  12
+ATOM     12  N   UNL     1      24.037  -7.628  13.198  1.00  0.00    -0.254 NA
+ATOM     13  C   UNL     1      24.760  -8.276  13.437  1.00  0.00     0.185 C 
+ATOM     14  N   UNL     1      24.774  -8.697  14.345  1.00  0.00    -0.370 N 
+ATOM     15  N   UNL     1      25.469  -8.504  12.770  1.00  0.00    -0.370 N 
+ATOM     16  H   UNL     1      25.222  -9.099  14.493  1.00  0.00     0.159 HD
+ATOM     17  H   UNL     1      24.334  -8.555  14.759  1.00  0.00     0.159 HD
+ATOM     18  H   UNL     1      25.917  -8.906  12.919  1.00  0.00     0.159 HD
+ATOM     19  H   UNL     1      25.461  -8.243  12.207  1.00  0.00     0.159 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.3     14.032     15.754
+REMARK SMILES NC(N)=NCCC[C@H](N)C(=O)O
+REMARK SMILES IDX 7 1 8 2 10 3 11 4 12 5 9 7 6 10 5 11 4 12 2 13 1 14 3 15
+REMARK H PARENT 12 6 9 8 9 9 1 16 1 17 3 18 3 19
+ROOT
+ATOM      1  C   UNL     1      18.205  -1.752  15.108  1.00  0.00     0.032 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      18.484  -1.345  14.239  1.00  0.00     0.162 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      19.455  -1.237  14.026  1.00  0.00     0.320 C 
+ATOM      4  O   UNL     1      19.745  -0.576  13.334  1.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1      20.136  -1.791  14.505  1.00  0.00    -0.480 OA
+ATOM      6  H   UNL     1      20.641  -1.522  14.744  1.00  0.00     0.296 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  N   UNL     1      17.792  -1.045  13.582  1.00  0.00    -0.318 NA
+ATOM      8  H   UNL     1      17.352  -0.643  13.757  1.00  0.00     0.119 HD
+ATOM      9  H   UNL     1      17.802  -1.261  13.001  1.00  0.00     0.119 HD
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  C   UNL     1      17.399  -1.404  15.588  1.00  0.00     0.026 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1      17.169  -1.753  16.496  1.00  0.00     0.146 C 
+BRANCH  11  12
+ATOM     12  N   UNL     1      16.833  -1.129  17.202  1.00  0.00    -0.254 NA
+ATOM     13  C   UNL     1      16.864  -1.398  18.164  1.00  0.00     0.185 C 
+ATOM     14  N   UNL     1      16.528  -0.773  18.869  1.00  0.00    -0.370 N 
+ATOM     15  N   UNL     1      17.232  -2.291  18.422  1.00  0.00    -0.370 N 
+ATOM     16  H   UNL     1      16.548  -0.940  19.466  1.00  0.00     0.159 HD
+ATOM     17  H   UNL     1      16.300  -0.219  18.709  1.00  0.00     0.159 HD
+ATOM     18  H   UNL     1      17.252  -2.458  19.019  1.00  0.00     0.159 HD
+ATOM     19  H   UNL     1      17.441  -2.678  17.985  1.00  0.00     0.159 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 7
+ENDMDL
