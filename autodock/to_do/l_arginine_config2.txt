@@ -1,0 +1,13 @@
+receptor = 3O4O_out.pdbqt
+ligand = l_arginine.pdbqt
+
+center_x = -21.0186
+center_y = 11.53465
+center_z = -50.59254
+
+size_x = 25
+size_y = 25
+size_z = 25
+
+exhaustiveness = 9
+num_modes = 3
