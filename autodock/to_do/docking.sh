@@ -21,9 +21,9 @@ echo "Looping through ligands in current folder ..."
 for LIGAND in ./*.sdf; do
     NAME=$(basename "$LIGAND" .sdf)
     LIGAND_PDBQT="${NAME}.pdbqt"
-    OUTPUT="${NAME}_docked_test.pdbqt"
-    LOG="${NAME}_log_test.txt"
-    CONFIG="${NAME}_config_test.txt"
+    OUTPUT="${NAME}_docked.pdbqt"
+    LOG="${NAME}_log.txt"
+    CONFIG="${NAME}_config.txt"
 
     echo "Preparing ligand: $NAME"
 
