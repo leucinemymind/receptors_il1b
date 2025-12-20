@@ -51,6 +51,9 @@ EOF
     echo "Docking ligand: $NAME"
     /Applications/ADVina/bin/vina --config "$CONFIG" --out "$OUTPUT" --log "$LOG"
 
+    mv $LOG ./vina_log/
+
+rm $CONFIG $LIGAND_PDBQT
 done
 
 echo "All dockings finished!"
